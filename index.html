@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Button to open the chat window -->
+    <button id="chatbot-button" class="chatbot-button">Chat with us</button>
+    
+    <div id="assistant-popup" class="popup">
+        <div class="popup-header">
+            <span>Virtual Assistant</span>
+            <button id="close-assistant">&times;</button>
+        </div>
+        <div class="popup-body">
+            <p>How can I assist you today?</p>
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-message">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
